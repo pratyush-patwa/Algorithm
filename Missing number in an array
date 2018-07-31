@@ -12,7 +12,7 @@ static int FindTheNo(int a[], int n){
 	public static void main(String args[]){
 	
 		int a[] = {1,8,7,4,5,3,2};
-		int no = FindTheNo(a,7);
+		int no = FindTheNo(a,a.length);
 		System.out.println(no);
 	}
 }
