@@ -1,0 +1,18 @@
+class Main
+{
+static int FindTheNo(int a[], int n){
+	int i, Sum;
+	Sum = ((n+1)*(n+2))/2;
+	//subtracting each element of array from the Requiered Sum 
+	for( i=0; i<n; i++ )
+		Sum = Sum - a[i];
+	return Sum;
+	}
+
+	public static void main(String args[]){
+	
+		int a[] = {1,2,3,4,5,7,8};
+		int no = FindTheNo(a,7);
+		System.out.println(no);
+	}
+}
